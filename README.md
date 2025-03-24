@@ -84,8 +84,21 @@ sh scripts/run_videoicl.sh
 ```
 
 ## 💯 Results
-### Quantitative results
-![MainTable](./assets/main_table.png)
+### Performance
+
+| **Model**      | **#example** | **Animal Kingdom** | **Sports-QA** | **Pit-VQA** | **UCF-Crime** | **Drive& Act** | **CapERA** |
+|:---------------|:------------:|:------------------:|:-------------:|:-----------:|:-------------:|:-------------:|:----------:|
+| GPT-4o         |   0   |       58.2         |       -       |     6.9     |     58.0      |       -       |   0.173    |
+| Gemini-1.5 Pro |   0   |       72.9         |       -       |    14.7     |     55.1      |       -       |   0.176    |
+|LLaVA-Video-72B |   0   |       69.7         |      25.7     |    5.7      |     35.6      |     14.6      |   0.170    |
+|LLaVA-Video-7B  |   0   |       68.0         |      25.5     |    6.7      |     39.3      |     20.2      |   0.181    |
+| **<ins>+VideoICL</ins>**|**<ins>8</ins>**|**<ins>72.3</ins>**|**<ins>47.6</ins>**|**<ins>61.3</ins>**|**<ins>53.3</ins>**|**<ins>53.4</ins>**|**<ins>0.178</ins>**|
+|Qwen2-VL-7B     |   0   |       58.6         |      26.8     |    5.8      |     36.1      |     10.6      |   0.138    |
+|**<ins>+VideoICL</ins>**|**<ins>8</ins>**|**<ins>66.3</ins>**|**<ins>51.5</ins>**|**<ins>59.6</ins>**|**<ins>48.7</ins>**|**<ins>49.3</ins>**|**<ins>0.189</ins>**|
+|Oryx-1.5-7B     |   0   |     58.6       |      28.3     |    3.8      |     11.9      |     10.7      |   0.151    |
+|**<ins>+VideoICL</ins>**|**<ins>8</ins>**|**<ins>58.5</ins>**|**<ins>52.0</ins>**|**<ins>58.4</ins>**|**<ins>44.0</ins>**|**<ins>57.3</ins>**|**<ins>0.179</ins>**|
+
+
 ### Qualitative results
 ![Qualitative](./assets/qualitative.png)
 <!-- ![Qual_Crime](./assets/qualitative_crime.png) -->
