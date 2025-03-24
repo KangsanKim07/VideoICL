@@ -11,6 +11,7 @@ def load_model(model_path):
     config = Config.from_file('demo/internvideo2_stage2_config.py')
     config = eval_dict_leaf(config)
     config['pretrained_path'] = model_path
+    config['model']['vision_encoder']['pretrained'] = model_path
     device = 'cuda'
     intern_model = setup_internvideo2(config)
     intern_model.to(device)
