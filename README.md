@@ -1,6 +1,7 @@
 # VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding
 [![Paper](https://img.shields.io/badge/arXiv-2412.02186-b31b1b)](https://arxiv.org/abs/2412.02186)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-orange)](https://www.python.org/downloads/release/python-310s0/)
+[![GCC](https://img.shields.io/badge/gcc-9.1%2B-blue)](https://gcc.gnu.org/gcc-9/)
 
 🚀 **Welcome to the official repository of** [**VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding**](https://arxiv.org/abs/2412.02186)!
 
