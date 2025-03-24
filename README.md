@@ -82,10 +82,13 @@ sh scripts/run_videoicl.sh
 ```
 
 ## 💯 Results
-
-![Qual_Crime](./assets/qualitative_crime.png)
-![Qual_Animal](./assets/qualitative_animal.png)
-![Qual_Sports](./assets/qualitative_sports.png)
+### Quantitative results
+![MainTable](./assets/main_table.png)
+### Qualitative results
+![Qualitative](./assets/qualitative.png)
+<!-- ![Qual_Crime](./assets/qualitative_crime.png) -->
+<!-- ![Qual_Animal](./assets/qualitative_animal.png) -->
+<!-- ![Qual_Sports](./assets/qualitative_sports.png) -->
 
 ## 📜 Citation
 
