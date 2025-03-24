@@ -68,12 +68,13 @@ And run
 ```bash
 sh scripts/extract_visual_feat.sh ${PATH_TO_InternVideo2-stage2_1b-224p-f4.pt}
 ```
-It will generate a file of video features to `data/UCF-Crimes/vid_feat.pkl`
+It will generate a file of video features as `data/UCF-Crimes/vid_feat.pkl`.
 
 ### Get similarity rank
 ```bash
 sh sctipts/get_simrank.sh
 ```
+It will generate similarity rankings for each test video in `data/UCF-Crimes/simrank`.
 
 ### Inference with VideoICL
 ```bash
